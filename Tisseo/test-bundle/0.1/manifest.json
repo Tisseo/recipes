@@ -1,0 +1,9 @@
+{
+    "aliases": ["test-bundle", "testbundle", "tisseotestbundle"],
+    "bundles": {
+        "Tisseo\\TestBundle\\TisseoTestBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "src/": "%SRC_DIR%/"
+    }
+}
